@@ -1,0 +1,89 @@
+
+.project-card{
+    background: #fff4ce;
+    margin: 1rem auto;
+    max-width: 250px;
+    overflow: hidden;
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 300ms ease-in-out;
+}
+.project-card:hover{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5)
+}
+.project-card img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h2{
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.techstack-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.techstack-item{
+    font-size: 0.75rem;
+    background: #667eea;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+}
+
+.project-desc{
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.demo-link img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.demo-link a{
+    text-decoration: none;
+    color: #764ba2;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.github-link img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.github-link a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.links>*{
+    transition: all 300ms ease-in-out;
+}
+.links>*:hover{
+    transform: scale(1.1);
+}
