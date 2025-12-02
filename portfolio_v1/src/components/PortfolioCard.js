@@ -23,6 +23,14 @@ const projectData = [
     description: "This restaurant app is a demo project whic i made to pracitce my skills of html, css, javascript, it is modern and responsive.",
     demoLink: "https://joyful-kulfi-192502.netlify.app/",
     githubLink: "https://github.com/shrinath-dev/Sample-projects/tree/main/weather_app"
+  },
+  {
+    thumbnail: './movie-explorer.png',
+    heading: "Movie Explorer",
+    techStack: ['React', 'CSS', 'Javascript'],
+    description: "A component driven React app showcasing search, filtering, theming, and favourites logic. Built entirely with static JSON data for pure UI and state-management practice.",
+    demoLink: "https://sd-movies-explorer.netlify.app/",
+    githubLink: "https://github.com/shrinath-dev/Sample-projects/tree/main/movies-explorer"
   }
 ]
 
