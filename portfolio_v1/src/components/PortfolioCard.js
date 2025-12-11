@@ -31,35 +31,43 @@ const projectData = [
     description: "A component driven React app showcasing search, filtering, theming, and favourites logic. Built entirely with static JSON data for pure UI and state-management practice.",
     demoLink: "https://sd-movies-explorer.netlify.app/",
     githubLink: "https://github.com/shrinath-dev/Sample-projects/tree/main/movies-explorer"
+  },
+  {
+    thumbnail: './task-manager.png',
+    heading: "Task Manager",
+    techStack: ['React', 'CSS', 'Javascript'],
+    description: "React-based task-manager app for creating, editing, and tracking tasks with intuitive UI, local state management using hooks, responsive styling, and Netlify deployment built as a hands-on learning project to strengthen frontend skills.",
+    demoLink: "https://sd-task-manager.netlify.app/",
+    githubLink: "https://github.com/shrinath-dev/Sample-projects/tree/main/task-manager"
   }
 ]
 
-function PortfolioCard(){
-    return(
-        <div className='portfolio-card'>
-            <Header />
-            <div className="card-content">
-                <Avatar />
-                <PersonalInfo />
-                <Bio />
-                
-                <div className="feature-projects-list">
-                    <h2 className='featured-projects'>Featured Projects</h2>
-                    {
-                        projectData.map((item, index) =>{
-                            return(
-                                <ProjectCard {...item} />
-                            )
-                        })
-                    }
-                </div>
-                {/* <ProjectCard {...projectData[0]}/> */}
-            </div>
-            
-            
-            
+function PortfolioCard() {
+  return (
+    <div className='portfolio-card'>
+      <Header />
+      <div className="card-content">
+        <Avatar />
+        <PersonalInfo />
+        <Bio />
+
+        <div className="feature-projects-list">
+          <h2 className='featured-projects'>Featured Projects</h2>
+          {
+            projectData.map((item, index) => {
+              return (
+                <ProjectCard {...item} />
+              )
+            })
+          }
         </div>
-    );
+        {/* <ProjectCard {...projectData[0]}/> */}
+      </div>
+
+
+
+    </div>
+  );
 };
 
 export default PortfolioCard;
