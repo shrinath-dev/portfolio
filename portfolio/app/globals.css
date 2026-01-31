@@ -125,8 +125,28 @@
   
 }
 
+@theme{
+    --animate-slideIn: slideIn 500ms ease-in-out;
+
+    @keyframes slideIn {
+    from{
+      opacity: 0;
+      transform: translateX(-100vw);
+    }
+    to{
+      opacity: 1;
+      transform : translateX(0);
+    }
+  }
+
+
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
 }
