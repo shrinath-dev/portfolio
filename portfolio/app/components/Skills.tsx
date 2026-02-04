@@ -85,7 +85,7 @@ export default function Skills() {
   ];
   return (
     <>
-      <section className="px-4 sm:px-6 lg:px-8 py-20">
+      <section id="skills" className="px-4 sm:px-6 lg:px-8 py-20">
         <div>
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">

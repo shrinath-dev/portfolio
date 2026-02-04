@@ -83,7 +83,7 @@ export default function Navbar() {
       </nav>
       {/* mobile nabigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden  fixed right-0 top-16 bottom-0 w-1/2 bg-secondary pt-4 border-l border-border">
+        <div className="md:hidden z-100 fixed right-0 top-16 bottom-0 w-1/2 bg-secondary pt-4 border-l border-border">
           <div className="w-full flex flex-col gap-4">
             {navLinks.map((link) => (
               <button
