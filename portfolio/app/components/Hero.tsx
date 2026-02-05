@@ -37,13 +37,13 @@ export default function Hero() {
               </div>
 
               <div className="flex gap-4">
-                <Link href="">
+                <Link href="https://github.com/shrinath-dev">
                   <Github />
                 </Link>
-                <Link href="">
+                <Link href="https://www.linkedin.com/in/shrinath-k-30b514385/">
                   <Linkedin />
                 </Link>
-                <Link href="">
+                <Link href="mailto:shrinath200802@gmail.com">
                   <Mail />
                 </Link>
               </div>
