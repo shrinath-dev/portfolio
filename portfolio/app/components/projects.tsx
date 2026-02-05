@@ -99,7 +99,7 @@ export default function Projects() {
       ],
       github:
         "https://github.com/shrinath-dev/Sample-projects/tree/main/task-manager",
-      demo: "https://github.com",
+      demo: "https://sd-task-manager.netlify.app/",
       role: "Developer",
     },
     {
@@ -123,7 +123,7 @@ export default function Projects() {
       ],
       github:
         "https://github.com/shrinath-dev/Sample-projects/tree/main/book-worm",
-      demo: "https://github.com",
+      demo: "https://bookworm-henna.vercel.app/",
       role: "Full Stack Developer",
     },
   ];
@@ -131,7 +131,7 @@ export default function Projects() {
     <>
       <section
         id="projects"
-        className="px-4 sm:px-6 lg:px-8 py-20 bg-primary/10"
+        className="px-4 sm:px-6 lg:px-8 py-20 bg-secondary/30"
       >
         <div>
           <div className="text-center mb-16">

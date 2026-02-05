@@ -65,7 +65,10 @@ export default function ExperienceCard({
         {/* key technology */}
         <div className="flex flex-wrap gap-2 ">
           {technologies.map((item, i) => (
-            <span className="px-3 py-1 bg-primary/10 rounded-full text-sm text-primary">
+            <span
+              key={i}
+              className="px-3 py-1 bg-primary/10 rounded-full text-sm text-primary"
+            >
               {item}
             </span>
           ))}

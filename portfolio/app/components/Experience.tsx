@@ -73,6 +73,7 @@ export default function Experience() {
             <div className="space-y-12">
               {experiences.map((item, i) => (
                 <div
+                  key={i}
                   className={`relative flex flex-col px-4 ${i % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"} gap-8`}
                 >
                   <div
