@@ -7,19 +7,19 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@alexmorgan.dev",
-      link: "mailto:hello@alexmorgan.dev",
+      value: "shrinath200802@gmail.com",
+      link: "mailto:shrinath200802@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      value: "+91 96431 90350",
+      link: "tel:+919643190350",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "New Delhi, India",
       link: null,
     },
   ];
